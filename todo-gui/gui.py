@@ -57,7 +57,10 @@ while True:
         case "Exit":
             break
         case "todos":
-            window["todo"].Update(value=values['todos'][0])
+            try:
+                window["todo"].Update(value=values['todos'][0])
+            except IndexError:
+                sg.popup("You did not select and item or there is no item yet")
         case sg.WIN_CLOSED:
             break
 window.close()
