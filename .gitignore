@@ -1,0 +1,130 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+.Python
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+*.egg-info/
+*.egg
+*.whl
+dist/
+build/
+*.eggs
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+.pytest_cache/
+.coverage
+*.pytest_cache
+.testmondata
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# pyenv
+.python-version
+
+# celery beat schedule file
+celerybeat-schedule
+
+# dotenv
+.env
+.env.*
+
+# virtualenv
+.venv
+.venv/
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Pyre type checker
+.pyre/
+
+# Cython
+build/
+cython_debug/
+
+# VS Code
+.vscode/
+.history/
+
+# MacOS
+.DS_Store
+
+# Windows
+Thumbs.db
+ehthumbs.db
+
+# IDEs and editors
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Log files
+*.log
+
+# Local configuration files
+*.local
+
+# Project specific
+*.orig
+*.rej
+*.sublime-workspace
+
+# Cover multiple Python project folders
+**/__pycache__/
+**/*.py[cod]
+**/env/
+**/venv/
+**/*.egg-info/
+**/dist/
+**/build/
+**/*.egg
+**/wheels/
+**/htmlcov/
+**/.tox/
+**/.coverage
+**/.pytest_cache/
+**/.mypy_cache/
+**/.ipynb_checkpoints
+**/.pyre/
+**/.venv/
+**/.nox/
+**/.hypothesis/
+**/.pytest_cache/
+**/.coverage.*
